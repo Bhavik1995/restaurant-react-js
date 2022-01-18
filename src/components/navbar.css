@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container{
+    height: 100%; 
+    margin: 0;
+}
+
+.container .bg_image{
+    width: 100%;
+    height: 1000px;   
+}
+
+.navbar-data{
+    position: absolute;
+    background-color: #e8e0d2;
+    left: 5%;
+    top: 90%;
+    padding: 30px;
+    width: 85%;
+    height: 70%;
+    border-radius: 8px;
+    z-index: 1;
+    opacity: 1;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.list .navbarList{
+    font-size: 18px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background-color: #373737;
+    color: #f4eee4;
+    cursor: pointer;
+    padding: 15px;
+    margin: 0 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+}
+
+.navbar-data h1{
+    font-family: 'Damion', sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    color: #373737;
+    text-align: center;
+    line-height: 1;
+}
+
+.navbar-data h6{
+    color: #373737;
+    text-align: center;
+    font-size: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+}
+
+.navbar-data .content{
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-data .content .left-content{
+       margin: 20px;
+       height: 100%; 
+}
+
+.navbar-data .content .left-content p{
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight:600;
+    background-color: #e8e0d2;
+    line-height: 1.42857143;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #373737;
+}
+
+.navbar-data .content .right-content{
+    margin: 20px;
+    height: 100%; 
+}
+
+.navbar-data .content .right-content p{
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight:600;
+    background-color: #e8e0d2;
+    line-height: 1.42857143;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #373737;
+}
+
+.dishes{
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    padding: 30px;
+    width: 95%;
+    height: 90%;
+    border-radius: 8px;
+    opacity: 1;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: #e8e0d2;
+    
+}
+
+.dishes .dish-image{
+    margin: 15px;
+    height: 100%;
+    width: 100%; 
+}
+
+.dishes .dishes img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.dishes .dish-price{
+    width: 100%;
+    height: 100%;
+    margin: 15px;
+}
+
+.dishes .dish-price h4{
+    font-size: 36px;
+    line-height: 1.11111111;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #373737;
+}
+.dishes .dish-price .dish-value{
+    font-size: 60px;
+    line-height: 1.2;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #373737;
+    margin: 5px 0;
+}
+
+.dishes .dish-price p{
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight:600;
+    background-color: #e8e0d2;
+    line-height: 1.42857143;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #373737;
+}
+
+.dishes .dish-price .btn-buy{
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    color: #f4eee4;
+    background-color: #373737;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    letter-spacing: 0.9px;
+}
