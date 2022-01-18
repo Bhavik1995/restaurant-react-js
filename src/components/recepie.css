@@ -1,0 +1,64 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.main_heading{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.main_heading h1{
+    position: absolute;
+    bottom: 165px;
+    text-align: center;
+    left: 0;
+    font-family: 'Damion', sans-serif;
+    font-size: 150px;
+    font-weight: 500;
+    color: #323232;
+    line-height: 1;
+    width: 100%;
+}
+
+.main_heading .main-heading-desc{
+    position: absolute;
+    bottom: 100px;
+    left: 25%;
+    padding: 10px;
+    width: 50%;
+}
+
+.main_heading .main-heading-desc p{
+    position: absolute;
+    text-align: center;
+    color: #373737;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 14;
+    font-weight: 700;
+    line-height: 1.9rem;
+    bottom: 10%;
+}
+
+.main_heading .main-heading-desc .desc-button{
+    position: absolute;
+    text-align: center;
+    background-color: #323232;
+    color: #f4eee4;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    left: 40%;  
+    padding: 20px;
+    margin-top: 20px; 
+    text-transform: uppercase;  
+    font-weight: 600;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    letter-spacing: 1.5px;  
+}

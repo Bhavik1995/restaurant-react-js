@@ -14,17 +14,17 @@ const Shop = () => {
                 <div className='recepie_divide'>
                     <div className='left-side-recepie'>
                         <p>65</p>
-                        <h4>Kinds of <br/> pasta</h4>
+                        <h4>Kinds of pasta</h4>
                     </div>
 
                     <div className='left-side-recepie-1'>
                         <p>32</p>
-                        <h4>Kinds of <br/> ravioli</h4>
+                        <h4>Kinds of ravioli</h4>
                     </div>
 
                     <div className='left-side-recepie-2'>
                         <p>15</p>
-                        <h4>Kinds of <br/> cheese</h4>
+                        <h4>Kinds of cheese</h4>
                     </div>
 
                     <div className='right-side-recepie'>

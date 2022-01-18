@@ -34,7 +34,7 @@
     top: 5%;
     left: 0%;
     padding: 20px;
-    width: 100%;
+    width: 300px;
     display: flex;
     flex-direction: row;
 }
@@ -53,7 +53,8 @@
     padding: 30px;
     margin-top: 125px;
     width: 100%;
-    text-align: justify;
+    text-align: left;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 .recepie_divide .left-side-recepie-1{
@@ -61,7 +62,7 @@
     top: 60%;
     left: 0%;
     padding: 20px;
-    width: 100%;
+    width: 300px;
     display: flex;
     flex-direction: row;
 }
@@ -80,7 +81,8 @@
     padding: 30px;
     margin-top: 125px;
     width: 100%;
-    text-align: justify;
+    text-align: left;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 .recepie_divide .left-side-recepie-2{
@@ -88,7 +90,7 @@
     top: 120%;
     left: 0%;
     padding: 20px;
-    width: 100%;
+    width: 300px;
     display: flex;
     flex-direction: row;
 }
@@ -106,8 +108,8 @@
     font-weight: 500;
     padding: 30px;
     margin-top: 125px;
-    width: 100%;
-    text-align: justify;
+    text-align: left;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
  }
 
  .right-side-recepie{
@@ -138,15 +140,23 @@
      position: absolute;
      bottom: 35%; 
      top: 0;
-     font-family: 'Damion', sans-serif;
+     left: 8%;
+     
  }
 
  .right-side-recepie ul li{
-     font-size: 40px;
-     font-family: inherit;
-     color: inherit;
-     line-height: 4rem;
-     text-align: justify;
+     font-size: 30px;
+     font-weight: 600;
+     color: #373737;
+     line-height: 3.8rem;
+     text-align: center;
+     font-family: 'Damion', sans-serif;
+     cursor: pointer;
+ }
+
+ .right-side-recepie ul li:hover{
+     cursor: pointer;
+     background-color: #e8e0d2;
  }
 
  .right-side-button{
