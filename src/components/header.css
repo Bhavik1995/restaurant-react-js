@@ -788,10 +788,10 @@
     .header_data{
         position: absolute;
         background-color: wheat;
-        left: 7%;
-        top: 3%;
-        padding: 20px;
-        width: 78%;
+        left: 6%;
+        top: 4%;
+        padding: 15px;
+        width: 75%;
         height: 15%;
         border-radius: 8px;
         opacity: 0.8;
