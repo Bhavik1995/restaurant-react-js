@@ -538,6 +538,65 @@
     } 
 }
 
+@media only screen and (max-width: 415px){
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .head-image{
+        width: 100%;
+        height: 100%;  
+    }  
+
+    .head-image img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .header_data{
+        position: absolute;
+        background-color: wheat;
+        left: 6.5%;
+        top: 3%;
+        padding: 20px;
+        width: 75%;
+        height: 12%;
+        border-radius: 8px;
+        opacity: 0.8;
+        z-index: 1;
+    }
+
+    .header_data h1{
+        font-family: 'Damion', sans-serif;
+        color: inherit;
+        transition: 0.2s;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .header_data p{
+        font-family: 'Damion', sans-serif;
+        color: inherit;
+        font-size: 0.8rem;
+        text-align: center;
+        margin-top: 5px;
+        font-weight: 600;
+    }
+
+    .header_data .flag{
+        position: absolute;
+        width: 50%;
+        height: 12px;
+        right: 25%;
+        bottom: 10%;
+
+    }
+}
+
+
 @media only screen and (max-width: 400px){
     .container{
         width: 100%;
