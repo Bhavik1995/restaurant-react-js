@@ -596,7 +596,6 @@
     }
 }
 
-
 @media only screen and (max-width: 400px){
     .container{
         width: 100%;
@@ -732,10 +731,10 @@
         position: absolute;
         background-color: wheat;
         left: 6%;
-        top: 7%;
-        padding: 25px;
+        top: 3%;
+        padding: 20px;
         width: 75%;
-        height: 30%;
+        height: 13%;
         border-radius: 8px;
         opacity: 0.8;
         z-index: 1;
