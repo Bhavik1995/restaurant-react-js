@@ -2,6 +2,8 @@ import React from 'react';
 
 import bg_image from '../images/parallax-bg01.png';
 import dishImage1 from '../images/dish1.png';
+import dishImage2 from '../images/dish2.png';
+import dishImage3 from '../images/dish3.png';
 import './navbar.css';
 
 const Navbar = () => {
@@ -41,21 +43,61 @@ const Navbar = () => {
                 </div>
 
                 <div className='dishes'>
-                    <div className='dish-image'>
-                        <img src={dishImage1} alt='dishes'/>
+                    <div className='dishes-dishes-data'>
+                        <div className='dish-image'>
+                            <img src={dishImage1} alt='dish1'/>
+                        </div>
+
+                        <div className='dish-price'>
+                            <h4>Stuffed Shells</h4>
+                            <p className='dish-value'>$25.99</p>
+
+                            <p>
+                                Rigatoni is a good pasta to serve with fairly thick <br/> cream- or tomato-based
+                                sauces, as its shape holds <br/> the sauce well.    
+                            </p>
+
+                            <button className='btn-buy'>Buy Now!</button>
+                        </div>
                     </div>
 
-                    <div className='dish-price'>
-                        <h4>Tagliatelle</h4>
-                        <p className='dish-value'>$25.99</p>
+                    <div className='dishes-dishes-data'>
+                        <div className='dish-image'>
+                            <img src={dishImage2} alt='dish2'/>
+                        </div>
 
-                        <p>
-                            Long, thin ribbons of pasta sold either in curled nests or straight, like
-                            spaghetti. Tagliatelle can be plain or green (flavoured with spinach) and is
-                            available fresh or dried.
-                        </p>
+                        <div className='dish-price'>
+                            <h4>Tagliatelle</h4>
+                            <p className='dish-value'>$20.99</p>
 
-                        <button className='btn-buy'>Buy Now!</button>
+                            <p>
+                                Long, thin ribbons of pasta sold either in curled nests or straight, like
+                                spaghetti. Tagliatelle can be plain or green (flavoured with spinach) and is
+                                available fresh or dried.
+                            </p>
+
+                            <button className='btn-buy'>Buy Now!</button>
+                        </div>
+                    </div>
+
+                    <div className='dishes-dishes-data'>
+                        <div className='dish-image'>
+                            <img src={dishImage3} alt='dish3'/>
+                        </div>
+
+                        <div className='dish-price'>
+                            <h4>Fusilli</h4>
+                            <p className='dish-value'>$30.99</p>
+
+                            <p>
+                               
+                                Spiral-shaped pasta that comes in plain, wholewheat <br/> and flavoured varieties.
+                                Fusilli tricolore comes in three colours: white, green, and red.
+                                    
+                            </p>
+
+                            <button className='btn-buy'>Buy Now!</button>
+                        </div>
                     </div>
                 </div>
             </div>
