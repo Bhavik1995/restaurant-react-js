@@ -57,7 +57,7 @@
     border-radius: 5px;
 }
 
-@media screen and (max-width: 1500px){
+@media only screen and (max-width: 1500px){
     .container{
         width: 100%;
         height: 100%;
@@ -69,7 +69,7 @@
     }
 }
 
-@media screen and (max-width: 1300px){
+@media only screen and (max-width: 1300px){
     .container{
         width: 100%;
         height: 100%;
@@ -81,7 +81,7 @@
     }
 }
 
-@media screen and (max-width: 1050px){
+@media only screen and (max-width: 1050px){
 
     .container{
         width: 100%;
@@ -109,7 +109,7 @@
 
 }
 
-@media screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px){
     .container{
         width: 100%;
         height: 100%;
@@ -135,7 +135,7 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
     .container{
         width: 100%;
         height: 100%;
@@ -192,7 +192,64 @@
     } 
 }
 
-@media screen and (max-width: 650px){
+@media only screen and (max-width: 699px){
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .head-image{
+        width: 100%;
+        height: 100%;  
+    }  
+
+    .head-image img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .header_data{
+        position: absolute;
+        background-color: wheat;
+        left: 6%;
+        top: 20%;
+        padding: 30px;
+        width: 80%;
+        height: 60%;
+        border-radius: 8px;
+        opacity: 0.8;
+        z-index: 1;
+    }
+
+    .header_data h1{
+        font-family: 'Damion', sans-serif;
+        color: inherit;
+        transition: 0.2s;
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 0;
+    }
+    
+    .header_data p{
+        font-family: 'Damion', sans-serif;
+        color: inherit;
+        font-size: 1.3rem;
+        text-align: center;
+        margin-top: 5px;
+        font-weight: 600;
+    }
+
+    .header_data .flag{
+        position: absolute;
+        width: 50%;
+        height: 20px;
+        right: 25%;
+
+    } 
+}
+
+@media only screen and (max-width: 650px){
     .container{
         width: 100%;
         height: 100%;
@@ -249,7 +306,7 @@
     } 
 }
 
-@media screen and (max-width: 540px){
+@media only screen and (max-width: 540px){
     .container{
         width: 100%;
         height: 100%;
@@ -307,7 +364,123 @@
     } 
 }
 
-@media screen and (max-width: 425px){
+@media only screen and (max-width: 500px){
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .head-image{
+        width: 100%;
+        height: 100%;  
+    }  
+
+    .head-image img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .header_data{
+        position: absolute;
+        background-color: wheat;
+        left: 7%;
+        top: 10%;
+        padding: 30px;
+        width: 75%;
+        height: 45%;
+        border-radius: 8px;
+        opacity: 0.8;
+        z-index: 1;
+    }
+
+    .header_data h1{
+        font-family: 'Damion', sans-serif;
+        color: inherit;
+        transition: 0.2s;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 0;
+    }
+    
+    .header_data p{
+        font-family: 'Damion', sans-serif;
+        color: inherit;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+
+    .header_data .flag{
+        position: absolute;
+        width: 50%;
+        height: 15px;
+        right: 25%;
+        bottom: 10%;
+
+    } 
+}
+
+@media only screen and (max-width: 470px){
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .head-image{
+        width: 100%;
+        height: 100%;  
+    }  
+
+    .head-image img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .header_data{
+        position: absolute;
+        background-color: wheat;
+        left: 7%;
+        top: 8%;
+        padding: 25px;
+        width: 75%;
+        height: 45%;
+        border-radius: 8px;
+        opacity: 0.8;
+        z-index: 1;
+    }
+
+    .header_data h1{
+        font-family: 'Damion', sans-serif;
+        color: inherit;
+        transition: 0.2s;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 0;
+    }
+    
+    .header_data p{
+        font-family: 'Damion', sans-serif;
+        color: inherit;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+
+    .header_data .flag{
+        position: absolute;
+        width: 50%;
+        height: 15px;
+        right: 25%;
+        bottom: 10%;
+
+    } 
+}
+
+@media only screen and (max-width: 425px){
     .container{
         width: 100%;
         height: 100%;
@@ -365,7 +538,7 @@
     } 
 }
 
-@media screen and (max-width: 400px){
+@media only screen and (max-width: 400px){
     .container{
         width: 100%;
         height: 100%;
@@ -423,7 +596,7 @@
     }
 }
 
-@media screen and (max-width: 375px){
+@media only screen and (max-width: 375px){
     .container{
         width: 100%;
         height: 100%;
@@ -480,7 +653,7 @@
     }
 }
 
-@media screen and (max-width: 360px){
+@media only screen and (max-width: 360px){
     .container{
         width: 100%;
         height: 100%;
@@ -537,7 +710,7 @@
     }
 }
 
-@media screen and (max-width: 320px){
+@media only screen and (max-width: 320px){
     .container{
         width: 100%;
         height: 100%;
@@ -589,6 +762,63 @@
         position: absolute;
         width: 50%;
         height: 9px;
+        right: 25%;
+        bottom: 10%;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .head-image{
+        width: 100%;
+        height: 100%;  
+    }  
+
+    .head-image img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .header_data{
+        position: absolute;
+        background-color: wheat;
+        left: 8%;
+        top: 7%;
+        padding: 10px;
+        width: 75%;
+        height: 30%;
+        border-radius: 8px;
+        opacity: 0.8;
+        z-index: 1;
+    }
+
+    .header_data h1{
+        font-family: 'Damion', sans-serif;
+        color: inherit;
+        transition: 0.2s;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .header_data p{
+        font-family: 'Damion', sans-serif;
+        color: inherit;
+        font-size: 0.7rem;
+        text-align: center;
+        margin-top: 7px;
+        font-weight: 600;
+    }
+
+    .header_data .flag{
+        position: absolute;
+        width: 50%;
+        height: 8px;
         right: 25%;
         bottom: 10%;
     }
