@@ -100,7 +100,7 @@
         top: 20%;
         right: 5%;
         padding: 30px;
-        width: 100%;
+        width: 85%;
         height: 200px;
         border-radius: 8px;
         opacity: 0.8;
@@ -184,10 +184,10 @@
         position: absolute;
         background-color: wheat;
         left: 6%;
-        top: 5%;
+        top: 10%;
         padding: 25px;
         width: 80%;
-        height: 20%;
+        height: 40%;
         border-radius: 8px;
         opacity: 0.8;
         z-index: 1;
@@ -200,7 +200,7 @@
         font-size: 3rem;
         text-align: center;
         margin-top: 10px;
-       
+        margin-bottom: 0;
     }
     
     .header_data p{
@@ -208,7 +208,7 @@
         color: inherit;
         font-size: 1.3rem;
         text-align: center;
-        margin-top: 30px;
+        margin-top: 10px;
         font-weight: 600;
     }
 
@@ -217,7 +217,7 @@
         width: 50%;
         height: 20px;
         right: 25%;
-        top: 75%;
+        top: 80%;
 
     } 
 }
