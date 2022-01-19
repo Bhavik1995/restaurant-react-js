@@ -27,7 +27,7 @@ const Header = () => {
                         <p>Offering authentic Italian <br/>
                             fresh-filled pastas 
                         </p>
-                        <img src={flag} alt='flag'/>
+                        <img className='flag' src={flag} alt='flag'/>
                     </div>
                 </div>
             </div>
