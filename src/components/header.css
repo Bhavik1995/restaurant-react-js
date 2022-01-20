@@ -147,6 +147,10 @@
         display: flex;
     }
 
+    .header-header-content{
+        margin: 0 0 3rem;
+    }
+
     .header-header-content .header_data{
         position: absolute;
         background-color: wheat;
