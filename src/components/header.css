@@ -68,7 +68,6 @@
 
 @media screen and (max-width: 650px){
     .header{
-        flex-direction: column;
         display: flex;
     }
 
@@ -96,7 +95,6 @@
 
 @media screen and (max-width: 490px){
     .header{
-        flex-direction: column;
         display: flex;
     }
 
@@ -146,7 +144,6 @@
 
 @media screen and (max-width: 360px){
     .header{
-        flex-direction: column;
         display: flex;
     }
 
