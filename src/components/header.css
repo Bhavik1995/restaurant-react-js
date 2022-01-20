@@ -58,6 +58,7 @@
 @media screen and (max-width: 1050px){
     .header{
         flex-direction: column;
+        display: flex;
     }
 
     .header-header-content{
@@ -68,6 +69,7 @@
 @media screen and (max-width: 650px){
     .header{
         flex-direction: column;
+        display: flex;
     }
 
     .header-header-content{
@@ -95,6 +97,7 @@
 @media screen and (max-width: 490px){
     .header{
         flex-direction: column;
+        display: flex;
     }
 
     .header-header-content .header_data{
