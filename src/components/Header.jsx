@@ -9,9 +9,10 @@ const Header = () => {
     return (
         <>
 
-            <div className='container'>
+            <div className='header section__padding'>
                 <div className='head-image'>
                     <img src={slider} alt='pizza'/>
+                    <div className='header-header-content'>
                     <div className='header_data'>
                         <h1>
                         <Typewriter options={{
@@ -28,6 +29,7 @@ const Header = () => {
                             fresh-filled pastas 
                         </p>
                         <img className='flag' src={flag} alt='flag'/>
+                    </div>
                     </div>
                 </div>
             </div>

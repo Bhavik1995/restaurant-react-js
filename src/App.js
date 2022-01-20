@@ -6,11 +6,13 @@ import Services from './components/Services';
 import Shop from './components/Shop';
 import Footer from './components/Footer'
 
+import './App.css';
+
 const App = () => {
   return (
    <>
      <Header/>
-     <Navbar/>
+     {/* <Navbar/> */}
      {/* <Shop/>
      <Recepie/>
      <Services/>
