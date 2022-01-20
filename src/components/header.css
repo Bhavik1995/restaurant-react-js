@@ -147,9 +147,11 @@
         display: flex;
     }
 
-    .header-header-content{
-        margin: 0 0 3rem;
-    }
+   .head-image{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+   }
 
     .header-header-content .header_data{
         position: absolute;
